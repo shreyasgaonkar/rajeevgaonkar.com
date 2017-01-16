@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    border: 0;
+    padding:0;
+    background: url("/bg.jpg") center center no-repeat;
+
+    font-family: LemonMilk, Helvetica, Tahoma, monospace;
+}
+
+a {
+    color: initial;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+@@font-face {
+    font-family: LemonMilk;
+    src: url('/LemonMilk.otf');
+}
+
+div.center {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: black;
+
+}
+
+h1.name {
+    margin: 0;
+    font-size: 3rem;
+    background: rgba(0,0,0,0.1);
+    letter-spacing: 2px;
+    padding: 20px;
+    border: 5px solid white;
+}
+
+
+
+h4 {
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
